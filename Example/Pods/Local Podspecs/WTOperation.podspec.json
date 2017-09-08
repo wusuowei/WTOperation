@@ -1,18 +1,18 @@
 {
   "name": "WTOperation",
   "version": "0.1.0",
-  "summary": "A short description of WTOperation.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1206860151@qq.com/WTOperation",
+  "summary": "WTOperation让你更简单的使用NSOperation创建队列任务.",
+  "description": "你只需要继承WTOperation，重载一个实现就能使用NSOperationQueue进行管理你的并发任务，不需要关心NSOperation的各种状态",
+  "homepage": "https://github.com/wusuowei/WTOperation",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "1206860151@qq.com": "wentianen@xingshulin.com"
+    "wentianen": "1206860151@qq.com"
   },
   "source": {
-    "git": "https://github.com/1206860151@qq.com/WTOperation.git",
+    "git": "https://github.com/wusuowei/WTOperation.git",
     "tag": "0.1.0"
   },
   "platforms": {

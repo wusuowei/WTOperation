@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "WTOperation.h"
 
 FOUNDATION_EXPORT double WTOperationVersionNumber;
 FOUNDATION_EXPORT const unsigned char WTOperationVersionString[];
