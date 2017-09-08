@@ -1,0 +1,6 @@
+framework module WTOperation {
+  umbrella header "WTOperation-umbrella.h"
+
+  export *
+  module * { export * }
+}
