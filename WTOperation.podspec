@@ -1,31 +1,14 @@
-#
-# Be sure to run `pod lib lint WTOperation.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'WTOperation'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WTOperation.'
+  s.summary          = 'WTOperation让你更简单的使用NSOperation创建队列任务.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.description      = '你只需要继承WTOperation，重载一个实现就能使用NSOperationQueue进行管理你的并发任务，不需要关心NSOperation的各种状态'
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/1206860151@qq.com/WTOperation'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/wusuowei/WTOperation'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1206860151@qq.com' => 'wentianen@xingshulin.com' }
-  s.source           = { :git => 'https://github.com/1206860151@qq.com/WTOperation.git', :tag => s.version.to_s }
+  s.author           = { 'wentianen' => '1206860151@qq.com' }
+  s.source           = { :git => 'https://github.com/wusuowei/WTOperation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
