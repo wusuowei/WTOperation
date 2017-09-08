@@ -22,7 +22,7 @@ pod 'WTOperation'
 
 ## Author
 
-1206860151@qq.com, wentianen@xingshulin.com
+1206860151@qq.com
 
 ## License
 
